@@ -287,7 +287,19 @@ function Dashboard() {
                                         <div>
 
                                             <h4>
-                                                {expense.expenseType}
+                                                {expense.expenseType === "Seeds"
+                                                    ? t.seeds
+                                                    : expense.expenseType === "Fertilizer"
+                                                        ? t.fertilizer
+                                                        : expense.expenseType === "Pesticide"
+                                                            ? t.pesticide
+                                                            : expense.expenseType === "Labor"
+                                                                ? t.labor
+                                                                : expense.expenseType === "Equipment"
+                                                                    ? t.equipment
+                                                                    : expense.expenseType === "Other"
+                                                                        ? t.other
+                                                                        : expense.expenseType}
                                             </h4>
 
                                             <p>
