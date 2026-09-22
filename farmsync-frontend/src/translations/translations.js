@@ -1,0 +1,137 @@
+const translations = {
+    en: {
+        dashboard: "Dashboard",
+        crops: "Crops",
+        expenses: "Expenses",
+        welcome: "Welcome",
+        logout: "Logout",
+        login: "Login",
+        register: "Register",
+
+        addCrop: "Add Crop",
+        editCrop: "Edit Crop",
+        delete: "Delete",
+        edit: "Edit",
+
+        cropName: "Crop Name",
+        area: "Area",
+        startDate: "Start Date",
+        expectedHarvest: "Expected Harvest",
+        status: "Status",
+
+        addExpense: "Add Expense",
+        editExpense: "Edit Expense",
+        amount: "Amount",
+        expenseType: "Expense Type",
+        expenseDate: "Expense Date",
+        description: "Description",
+        crop: "Crop",
+
+        growing: "Growing",
+        ready: "Ready",
+
+        totalExpenses: "Total Expenses",
+        noCrops: "No crops found",
+        noExpenses: "No expenses found",
+
+        totalCrops: "Total Crops",
+        totalExpenseRecords: "Total Expense Records",
+        quickActions: "Quick Actions",
+        viewCrops: "View Crops",
+        viewExpenses: "View Expenses",
+        cropStatusSummary: "Crop Status Summary",
+        harvested: "Harvested",
+        myCrops: "My Crops",
+        recentExpenses: "Recent Expenses",
+        noCropsFound: "No crops found.",
+        noExpensesFound: "No expenses found.",
+        acres: "acres",
+
+        loadingCrops: "Loading crops...",
+        manageTrackCrops: "Manage and track your crops",
+        startAddingCrops: "Start adding crops to manage your farm.",
+        actions: "Actions",
+
+        expenseRecords: "Expense Records",
+        manageTrackExpenses: "Manage and track your farming expenses",
+        loadingExpenses: "Loading expenses...",
+
+        name: "Name",
+        password: "Password",
+        enterName: "Enter name",
+        enterEmail: "Enter email",
+        enterPassword: "Enter password",
+        createAccount: "Create your FarmSync account",
+        alreadyHaveAccount: "Already have an account?",
+        somethingWentWrong: "Something went wrong",
+    },
+
+    mr: {
+        dashboard: "डॅशबोर्ड",
+        crops: "पिके",
+        expenses: "खर्च",
+        welcome: "स्वागत आहे",
+        logout: "लॉगआउट",
+        login: "लॉगिन",
+        register: "नोंदणी",
+
+        addCrop: "पीक जोडा",
+        editCrop: "पीक संपादित करा",
+        delete: "हटवा",
+        edit: "संपादित करा",
+
+        cropName: "पिकाचे नाव",
+        area: "क्षेत्रफळ",
+        startDate: "लागवड तारीख",
+        expectedHarvest: "अपेक्षित कापणी",
+        status: "स्थिती",
+
+        addExpense: "खर्च जोडा",
+        editExpense: "खर्च संपादित करा",
+        amount: "रक्कम",
+        expenseType: "खर्चाचा प्रकार",
+        expenseDate: "खर्चाची तारीख",
+        description: "वर्णन",
+        crop: "पीक",
+
+        growing: "वाढत आहे",
+        ready: "कापणीसाठी तयार",
+
+        totalExpenses: "एकूण खर्च",
+        noCrops: "कोणतेही पीक सापडले नाही",
+        noExpenses: "कोणताही खर्च सापडला नाही",
+
+        totalCrops: "एकूण पिके",
+        totalExpenseRecords: "एकूण खर्च नोंदी",
+        quickActions: "जलद कृती",
+        viewCrops: "पिके पहा",
+        viewExpenses: "खर्च पहा",
+        cropStatusSummary: "पिकांच्या स्थितीचा सारांश",
+        harvested: "कापणी झालेली",
+        myCrops: "माझी पिके",
+        recentExpenses: "अलीकडील खर्च",
+        noCropsFound: "कोणतेही पीक सापडले नाही.",
+        noExpensesFound: "कोणताही खर्च सापडला नाही.",
+        acres: "एकर",
+
+        loadingCrops: "पिके लोड होत आहेत...",
+        manageTrackCrops: "तुमची पिके व्यवस्थापित करा आणि त्यांचा मागोवा घ्या",
+        startAddingCrops: "तुमचे शेत व्यवस्थापित करण्यासाठी पिके जोडण्यास सुरुवात करा.",
+        actions: "कृती",
+
+        expenseRecords: "खर्चाच्या नोंदी",
+        manageTrackExpenses: "तुमच्या शेतीच्या खर्चाचे व्यवस्थापन करा आणि त्याचा मागोवा घ्या",
+        loadingExpenses: "खर्चाच्या नोंदी लोड होत आहेत...",
+
+        name: "नाव",
+        password: "पासवर्ड",
+        enterName: "नाव टाका",
+        enterEmail: "ईमेल टाका",
+        enterPassword: "पासवर्ड टाका",
+        createAccount: "तुमचे FarmSync खाते तयार करा",
+        alreadyHaveAccount: "तुमचे खाते आधीपासून आहे का?",
+        somethingWentWrong: "काहीतरी चूक झाली",
+    }
+};
+
+export default translations;

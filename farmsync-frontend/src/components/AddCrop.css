@@ -1,0 +1,128 @@
+.add-crop-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: #f5f7f2;
+}
+
+.add-crop-card {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.add-crop-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2e7d32;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+.add-crop-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.add-crop-btn:hover {
+    background: #388e3c;
+}
+
+@media (max-width: 600px) {
+    .add-crop-container {
+        padding: 15px;
+    }
+
+    .add-crop-card {
+        padding: 20px;
+    }
+}
+
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+
+    .add-crop-container {
+        padding: 20px;
+    }
+
+    .add-crop-card {
+        max-width: 500px;
+        padding: 25px;
+    }
+
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+
+    .add-crop-container {
+        padding: 15px;
+        align-items: flex-start;
+    }
+
+    .add-crop-card {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .add-crop-card h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .add-crop-btn {
+        padding: 11px;
+        font-size: 15px;
+    }
+
+}

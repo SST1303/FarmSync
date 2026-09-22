@@ -1,0 +1,33 @@
+# Java / Spring Boot
+target/
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Node.js
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot configuration
+farmsync-backend/src/main/resources/application.properties
