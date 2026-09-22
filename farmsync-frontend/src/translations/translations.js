@@ -64,6 +64,13 @@ const translations = {
         createAccount: "Create your FarmSync account",
         alreadyHaveAccount: "Already have an account?",
         somethingWentWrong: "Something went wrong",
+
+        seeds: "Seeds",
+        fertilizer: "Fertilizer",
+        pesticide: "Pesticide",
+        labor: "Labor",
+        equipment: "Equipment",
+        other: "Other",
     },
 
     mr: {
@@ -131,6 +138,13 @@ const translations = {
         createAccount: "तुमचे FarmSync खाते तयार करा",
         alreadyHaveAccount: "तुमचे खाते आधीपासून आहे का?",
         somethingWentWrong: "काहीतरी चूक झाली",
+
+        seeds: "बियाणे",
+        fertilizer: "खत",
+        pesticide: "कीटकनाशक",
+        labor: "मजुरी",
+        equipment: "उपकरणे",
+        other: "इतर",
     }
 };
 
